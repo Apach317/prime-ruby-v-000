@@ -5,4 +5,5 @@ def prime?(integer)
     return false
   elsif integer == prime_numbers.each?
     return true
+  end
 end
