@@ -7,5 +7,3 @@ def prime?(integer)
     return true
   end
 end
-
-if (2...n-1).any?{|i| n % i == 0}
