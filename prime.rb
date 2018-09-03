@@ -4,10 +4,10 @@ def prime?(integer)
   if integer < 2
       return false
   elsif integer == 3 || integer == 2
-        return true
+      return true
   elsif (2...integer-1).any?{|i| integer % i == 0}
-          return false
-             else
-               return true
-        end
+      return false
+  else
+      return true
+  end
 end
